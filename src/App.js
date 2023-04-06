@@ -11,7 +11,6 @@ function App() {
     );
    const data = await response.json();
    setAdvice(data.activity);
-   console.log(data)
   };
 
   useEffect(() => {
