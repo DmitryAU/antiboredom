@@ -7,7 +7,7 @@ function App() {
 
   const searchAdvice = async () => {
   const response = await fetch(
-      "httpsgit add --all  ://www.boredapi.com/api/activity/"
+      "https://www.boredapi.com/api/activity/"
     );
    const data = await response.json();
    setAdvice(data.activity);
